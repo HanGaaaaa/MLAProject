@@ -1,5 +1,5 @@
 import numpy as np
-import Knn.kNN as knn
+import MLAProject.Knn.kNN as knn
 import os
 
 TRAIN_SET = "./res/digits/trainingDigits/"

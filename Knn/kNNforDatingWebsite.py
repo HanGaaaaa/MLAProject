@@ -1,5 +1,5 @@
 import numpy as np
-import Knn.kNN as knn
+import MLAProject.Knn.kNN as knn
 
 FILE_PATH = "./res/datingTestSet.txt"
 TEST_FILE_PATH = "./res/datingTestSet2.txt"
