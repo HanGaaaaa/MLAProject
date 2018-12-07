@@ -45,7 +45,7 @@ def mail_classify_test(cv=5):
         print('错误率：%.2f' % err_rate)
         total_cv_err_rate += err_rate
     total_cv_err_rate = total_cv_err_rate / cv
-    print('交叉验证%d后的错误率为：%.2f' % (cv, total_cv_err_rate))
+    print('交叉验证%d次后的错误率为：%.2f' % (cv, total_cv_err_rate))
 
 
 if __name__ == '__main__':

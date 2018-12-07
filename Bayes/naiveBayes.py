@@ -44,7 +44,7 @@ def train_naive_bayes(data_mat, class_label):
     for i in range(class_count):
         pc.append(len([a for a in class_label if a == i]))
         pcw.append(np.ones(word_num))
-        denom.append(2)
+        denom.append(word_num)
     pc = np.asarray(pc) / data_mat_count
     for i in range(data_mat_count):
         for j in range(class_count):
